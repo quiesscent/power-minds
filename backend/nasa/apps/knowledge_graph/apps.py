@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class PublicationsConfig(AppConfig):
+class KnowledgeGraphConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'apps.publications'
+    name = 'apps.knowledge_graph'

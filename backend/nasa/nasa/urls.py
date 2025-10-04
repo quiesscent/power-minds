@@ -23,5 +23,5 @@ path('admin/', admin.site.urls),
 path('api/publications/', include('apps.publications.urls')),
 path('api/kg/', include('apps.knowledge_graph.urls')),
 path('api/analytics/', include('apps.analytics.urls')),
-path('api/users/', include('apps.users.urls')),
+path('api/agri/', include('apps.agri_data.urls')),
 ]

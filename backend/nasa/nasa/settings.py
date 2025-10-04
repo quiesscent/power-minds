@@ -26,7 +26,7 @@ INSTALLED_APPS = [
     'apps.publications',
     'apps.knowledge_graph',
     'apps.analytics',
-    'apps.users',
+   'apps.agri_data',
 ]
 
 
@@ -78,7 +78,6 @@ DATABASES = {
 }
 
 
-AUTH_USER_MODEL = 'users.CustomUser'
 
 
 REST_FRAMEWORK = {
