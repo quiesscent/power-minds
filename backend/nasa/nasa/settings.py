@@ -91,23 +91,18 @@ REST_FRAMEWORK = {
     ],
 }
 
-
 # Celery / Redis settings (optional)
 CELERY_BROKER_URL = os.environ.get('CELERY_BROKER_URL', 'redis://localhost:6379/0')
 CELERY_RESULT_BACKEND = os.environ.get('CELERY_RESULT_BACKEND', 'redis://localhost:6379/0')
-
 
 # Neo4j settings (for knowledge_graph)
 NEO4J_URI = os.environ.get('NEO4J_URI', 'bolt://localhost:7687')
 NEO4J_USER = os.environ.get('NEO4J_USER', 'neo4j')
 NEO4J_PASSWORD = os.environ.get('NEO4J_PASSWORD', 'password')
 
-
 # NASA API keys (set as env vars)
 NASA_API_KEY = os.environ.get('NASA_API_KEY', '')
 
-
 STATIC_URL = '/static/'
-
 
 CORS_ALLOWED_ORIGINS = os.environ.get('CORS_ALLOWED_ORIGINS', 'http://localhost:3000').split(',')
