@@ -15,7 +15,7 @@ const Navbar = () => {
   const navItems = [
     { path: "/", label: "Home", icon: Rocket },
     { path: "/dashboard", label: "Publications", icon: Database },
-    { path: "/risk-dashboard", label: "Risk Dashboard", icon: Map },
+    { path: "/risk-dashboard", label: "Dashboard", icon: Map },
     { path: "/analytics", label: "Analytics", icon: BarChart3 },
     { path: "/about", label: "About", icon: Info },
   ];
